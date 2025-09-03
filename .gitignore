@@ -1,0 +1,155 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# ========================================
+# ESSENTIAL SECURITY - CORE IP PROTECTION
+# Protects critical assets while allowing development
+# ========================================
+
+# Core patent documents - CRITICAL PROTECTION
+PATENT_COVER_SHEET_CONFIDENTIAL.md
+**/PRIVATE_IP_DOCS/
+**/*PATENT_APPLICATION*
+**/*TRADE_SECRET*
+
+# Dropify core IP - ESSENTIAL PROTECTION  
+**/WEB2_WEB3_BRIDGE_PATENT.md
+**/*PROPRIETARY_ALGORITHM*
+**/*COMPETITIVE_ADVANTAGE*
+
+# Development-safe security patterns
+**/*_CONFIDENTIAL.md
+**/*_PATENT.pdf
+**/*_TRADE_SECRET.txt
+
+# Private documentation
+PRIVATE_*
+**/PRIVATE_*
+docs/confidential/
+docs/proprietary/
+
+# Legal and IP documents
+legal/
+ip/
+patents/
+trademarks/
+
+# Business sensitive files
+business-plan.*
+financial-*
+investor-*
+valuation.*
+
+# Development secrets - ONLY CRITICAL FILES
+*.pem
+*.p12
+*.pfx
+private-key*
+secret-key*
+**/*_API_KEY*
+**/*_SECRET_TOKEN*
+
+# Database dumps and backups
+*.sql
+*.dump
+*.backup
+backup/
+dumps/
+
+# Essential IP protection - BALANCED APPROACH
+SEAMLESS_WALLET_GENERATION.md
+**/*CORE_ALGORITHM*
+**/*BUSINESS_SECRETS*
+
+# SECURITY REMINDER - ESSENTIAL ONLY:
+# Protects core IP while allowing development
+# Use 'git status' to verify what's tracked
+# Critical files remain protected
+"" 
+"# Dropify Secure Vault - NEVER COMMIT TO VERSION CONTROL" 
+".secure-vault/" 
+".secure-vault/**" 
+"*.vault" 
+".vault-salt" 
+"vault-*.key" 
+"backup-*.enc" 
+"" 
+"# Dropify Secure Vault - NEVER COMMIT TO VERSION CONTROL" 
+".secure-vault/" 
+".secure-vault/**" 
+"*.vault" 
+".vault-salt" 
+"vault-*.key" 
+"backup-*.enc" 
+"" 
+"# Dropify Secure Vault - NEVER COMMIT TO VERSION CONTROL" 
+".secure-vault/" 
+".secure-vault/**" 
+"*.vault" 
+".vault-salt" 
+"vault-*.key" 
+"backup-*.enc" 
+
+# Dropify IP Protection - DO NOT REMOVE
+.secure-vault/
+vault-backup-*/
+*.vault
+*.encrypted
+*.key
+*.pem
+private-keys/
+sensitive-data/
+proprietary/
+trade-secrets/
+patent-drafts/
+legal-docs/
+business-plans/
+financial-data/
+competitor-analysis/
+internal-docs/
+confidential/
+ip-assets/
+design-protection/
+algorithm-protection/
+supra-keys/
+treasury-keys/
+admin-access/
